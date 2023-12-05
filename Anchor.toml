@@ -1,0 +1,17 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+arbitrage = "3pRCczvKX3eUmgwHpf9jLjoWykLw19CT2TXyisSweL5w"
+rabbit = "CqBftoLhWzC4PUVCZNGsQ7UwJxfMJHacWqZ9FsxW6YTP"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/dannpl/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
