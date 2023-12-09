@@ -1,6 +1,6 @@
 {
-  "name": "@firethree/rabbit",
-  "version": "0.0.34",
+  "name": "@firethreexyz/rabbit",
+  "version": "0.0.1",
   "description": "Check and invest!",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
